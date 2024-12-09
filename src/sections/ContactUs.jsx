@@ -47,7 +47,7 @@ const ContactUs = () => {
       className="w-full lg:flex items-center space-y-5 md:space-y-0 md:space-x-8 bg-gray-100 p-3 sm:p-10"
       id="contact"
     >
-      <div className="md:w-[40%] text-black space-y-7">
+      <div className="lg:w-[40%] text-black space-y-7">
         <div>
           <h1 className="contact-header font-semibold text-5xl capitalize">
             join our community
@@ -61,7 +61,7 @@ const ContactUs = () => {
           or want to connect with us, feel free to reach out using the details
           below:
         </p>
-        <div className="space-y-5 relative w-fit mx-auto">
+        <div className="space-y-5 relative w-fit mx-auto lg:mx-0">
           <a
             href="mailto:rccgchampionlp80@gmail.com"
             className="group flex w-fit space-x-5 flex-col items-center justify-center sm:items-start sm:justify-start sm:flex-row"

@@ -72,8 +72,8 @@ const Gallery = () => {
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         className="w-full lg:w-[95%]"
       >
-        {imgSrc.map((src) => (
-          <SwiperSlide>
+        {imgSrc.map((src, index) => (
+          <SwiperSlide key={index}>
             <img
               src={`images/gallery/${src}`}
               alt="Photos"

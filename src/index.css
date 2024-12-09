@@ -12,15 +12,15 @@ body {
 }
 
 .bg-image {
-  background-image: url(images/hero-bg.jpeg);
+  background-image: url(/images/hero-bg.jpeg);
   background-size: cover;
 }
 .bg-about {
-  background-image: url(images/about-bg.jpg);
+  background-image: url(/images/about-bg.jpg);
   background-size: cover;
 }
 .bg-testimony {
-  background-image: url(images/testimony-bg.jpg);
+  background-image: url(/images/testimony-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

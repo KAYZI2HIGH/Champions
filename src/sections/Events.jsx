@@ -108,8 +108,8 @@ const Events = () => {
           }
           onSwiper={(swiper) => (swiperRef.current = swiper)}
         >
-          {eventDetails.map((event) => (
-            <SwiperSlide>
+          {eventDetails.map((event, index) => (
+            <SwiperSlide key={index}>
               <EventContent
                 image={event.image}
                 date={event.date}
