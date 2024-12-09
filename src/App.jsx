@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Nav from "./sections/Nav";
 import Hero from "./sections/Hero";
-import About from "./sections/about";
+import About from "./sections/AboutUs";
 import Services from "./sections/Services";
 import Events from "./sections/Events";
 import Testimony from "./sections/Testimony";
