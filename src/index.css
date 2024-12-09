@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.bg-image {
+  background-image: url(images/hero-bg.jpeg);
+  background-size: cover;
+}
+.bg-about {
+  background-image: url(images/about-bg.jpg);
+  background-size: cover;
+}
+.bg-testimony {
+  background-image: url(images/testimony-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.under::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+  background: orange;
+}
+
+.contact-header {
+  color: rgb(253, 181, 42);
+  font-family: Caveat, sans-serif;
+  line-height: 30.006px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+}
