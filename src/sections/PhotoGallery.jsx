@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import ReactPlayer from "react-player";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper/modules";
 
@@ -96,6 +97,15 @@ const Gallery = () => {
           <ChevronRight size={54} />
         </div>
       </div>
+      <h1 className="text-5xl under font-bold tracking-wider capitalize">
+        video gallery
+      </h1>
+      <video
+        
+        src="/images/gallery/33.mp4"
+        controls
+        className="w-full h-[500px] object-cover rounded-2xl"
+      />
     </section>
   );
 };

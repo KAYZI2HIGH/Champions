@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Nav from "./sections/Nav";
+import Nav from "./sections/components/navbar/Nav";
 import Hero from "./sections/Hero";
 import About from "./sections/AboutUs";
 import Services from "./sections/Services";
@@ -7,7 +7,7 @@ import Events from "./sections/Events";
 import Testimony from "./sections/Testimony";
 import Gallery from "./sections/PhotoGallery";
 import ContactUs from "./sections/ContactUs";
-import Footer from "./sections/FooterSection";
+import Footer from "./sections/components/FooterSection";
 
 function App() {
   const [count, setCount] = useState(0);
