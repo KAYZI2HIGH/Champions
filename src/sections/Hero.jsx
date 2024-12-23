@@ -4,11 +4,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-image w-full h-screen flex justify-center items-center"
+      className="relative bg-image w-full h-[calc(100vh-60px)] flex justify-center items-center"
     >
       <div className="z-0 w-full bg-black absolute top-0 bottom-0 left-0 right-0 opacity-35"></div>
       <img src="images/church-logo.png" alt="RCCG-Logo" className="w-full sm:w-[40%] fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:-translate-y-[40%] -z-10 opacity-15"/>
-      <div className="max-w-[800px] text-center  z-10 mt-28 space-y-2">
+      <div className="max-w-[800px] text-center mt-10 z-10 space-y-2">
         <h1 className="text-3xl sm:text-5xl font-bold tracking-wider capitalize">
           welcome to our home.
         </h1>
